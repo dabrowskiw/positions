@@ -1548,7 +1548,7 @@ Roles Taxonomy):
 -   **Visualization:** Unger, Friedl
 
 -   **Writing original draft:** Achhammer, Aggarwal, Anzt, Appel, Bach,
-    Bader, Brusch, Dabrowski, Druskat, Ebert, Flemisch, Friedl, Funk, Grad, Goth,
+    Bader, Brusch, Druskat, Ebert, Flemisch, Friedl, Funk, Grad, Goth,
     Herrmann, Hohmann, Kutra, Linxweiler, Loewe, Löffler, Muth,
     Peters-Kottig, Rack, Raters, Rave, Reina, Renard, Ropinksi,
     Schaarschmidt, Seemann, Struck, Thiele, Uekermann, Unger, Weeber
