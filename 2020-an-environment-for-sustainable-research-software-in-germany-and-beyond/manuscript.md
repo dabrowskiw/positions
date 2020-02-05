@@ -980,7 +980,7 @@ How can Research Software be Sustainably Funded?
 > straight into a long-term position at her institute, where they focus
 > on the maintenance and development of *hal9k*, work with the computing
 > center to support *hal9k*-based supercomputing on a new, dedicated
-> FGPA cluster, develop training materials for external users, and
+> FPGA cluster, develop training materials for external users, and
 > organize the yearly *hal9k* users and developers conference. Kim gets
 > to travel the world to visit researchonomics groups who are using
 > *hal9k*.
@@ -1002,7 +1002,7 @@ Challenges
 
 Short-term engagement of (young) researchers raises the question of how
 to maintain a constant level of expertise within a developer team and
-preventing knowledge drain concerning domain knowledge and software
+prevent knowledge drain concerning domain knowledge and software
 engineering skills. Conversely, the permanent engagement of qualified
 personnel requires to offer career perspectives, especially due to the
 fact that academia competes with industry for the same people. A
@@ -1065,7 +1065,7 @@ services, a hardware portfolio for development, testing and benchmarking
 software, as well as personnel for training domain researchers in
 software design and the proper usage of the services.
 
-The creation and maintenance of training material for general research
+The creation and maintenance of training materials for general research
 software engineering education and the software-specific documentation
 and tutorial creation needs to be reflected in funding opportunities.
 This can either happen by dedicating modules of research or software
@@ -1119,7 +1119,13 @@ the cataloging of research software to reduce the duplication of
 development efforts. This can efficiently be realized by promoting the
 registration of all research software efforts with an ORCID iD (“ORCID”
 2019) and developing a tool that allows to explore the research software
-landscape.
+landscape. While some funding for such tools and software repositories is
+emerging (e.g. the bio.tools catalogue of bioinformatics tools funded
+as part of the European ELIXIR project, Ison, Rapacki, Ménager et al., 
+2015), a standardized extension of such efforts to the RSE community as
+a whole is necessary. However, as the experiences from ELIXIR
+demonstrate, this is a non-trivial effort that requires significant dedicated
+and long-term funding. 
 
 Quality Assurance
 -----------------
@@ -1353,7 +1359,10 @@ In addition to the rights of the people directly involved, other rights
 of third parties may also be relevant. Existing source code (e.g., other
 free/libre open source software, FLOSS), external libraries, and
 contributions from institutional cooperation partners are published and
-provided under certain licenses and their conditions must be observed.
+provided under certain licenses and their conditions must be observed 
+(which, due to incompatibilities even among open source software licenses,
+may well mean that individually reuseable pieces of software cannot be 
+reused together or in a new context).
 The nature of research careers often brings additional complications in
 the chain of rights. It happens that researchers take their software
 with them when they change institutions and develop it further during
@@ -1539,13 +1548,13 @@ Roles Taxonomy):
 -   **Visualization:** Unger, Friedl
 
 -   **Writing original draft:** Achhammer, Aggarwal, Anzt, Appel, Bach,
-    Bader, Brusch, Druskat, Ebert, Flemisch, Friedl, Funk, Grad, Goth,
+    Bader, Brusch, Dabrowski, Druskat, Ebert, Flemisch, Friedl, Funk, Grad, Goth,
     Herrmann, Hohmann, Kutra, Linxweiler, Loewe, Löffler, Muth,
     Peters-Kottig, Rack, Raters, Rave, Reina, Renard, Ropinksi,
     Schaarschmidt, Seemann, Struck, Thiele, Uekermann, Unger, Weeber
 
 -   **Writing review & editing:** Anzt, Appel, Bach, Bader, Brusch,
-    Dabrowski, Druskat, Friedl, Funk, Herrmann, Loewe, Löffler, Rack, Reina,
+    Druskat, Friedl, Funk, Herrmann, Loewe, Löffler, Rack, Reina,
     Renard, Seemann, Struck, Thiele, Uekermann
 
 Supplementary Material
@@ -1787,6 +1796,11 @@ Contributing to Oss Projects? A Preliminary Analysis.”
 
 ifrOSS. 2019. “Lizenz Center.”
 [ifross.github.io/ifrOSS/Lizenzcenter](ifross.github.io/ifrOSS/Lizenzcenter).
+
+Jon Ison, Kristoffer Rapacki, Hervé Ménager, Matúš Kalaš, Emil Rydza, 
+Piotr Chmura, Christian Anthon, Niall Beard, Karel Berka, et al. 2015.
+“Tools and data services registry: a community effort to document 
+bioinformatics resources” *Nucleic Acids Research* 44 (January): D38-D47.
 
 Jackson, Mike, Steve Crouch, and Rob Baxter. 2019. “Software Evaluation
 Guide.”
